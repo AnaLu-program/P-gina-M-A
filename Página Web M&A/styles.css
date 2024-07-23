@@ -21,18 +21,17 @@ header {
 
   }
 
-header h1{
-    font-family: "Playfair Display", serif;
-}
-img.menu-icono{
+a.logo img{
     height: 55px;
     width: auto;
     transition: all 0.3s;
     transform: scale(1.2);
+    cursor: pointer;
 }
 
 nav.navbar{
-    background-color: #DD6453;
+    font-family: "Playfair Display", serif;
+    background-color: #FFF;
     display: flex;
     padding: 0px;
     justify-content: space-between;
