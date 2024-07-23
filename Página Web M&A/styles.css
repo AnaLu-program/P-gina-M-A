@@ -15,25 +15,31 @@
 }
 
 .header {
-    background-image: url(imagenes/Imagen\ fondo\ de\ inicio.png);
+    background-image: url(imagenes/imagen\ original.jpg);
     background-position: center bottom;
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 70vh;
     display: flex;
-    justify-content: space-between;
     align-items: center;
-    height: 85px;
-    padding: 5px 10%;
   }
+
+.menu-container{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
 
 a.logo{
     cursor: pointer;
 }
 
   a.logo img{
-    height: 45px;
-    width: auto;
+    height: 70px;
 }
 
 a.logo img:hover{
@@ -44,9 +50,16 @@ a.logo img:hover{
 
 nav.navbar{
     font-family: "Playfair Display", serif;
-    background-color: #76D8E9;
+    background-color: #ffffff;
     padding: 0px;
     border-radius: 20PX;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
     
 }
 
@@ -73,7 +86,7 @@ nav.navbar a{
     font-weight: 700;
     color: #000000;
     padding: 9px 25px;
-    background: #EEC27B;
+    background: #FFDE4D;
     border: none;
     border-radius: 50px;
     cursor: pointer;
