@@ -1,5 +1,4 @@
 
-
 *{
     margin: 0;
     padding: 0;
@@ -10,34 +9,27 @@
     list-style: none;
 }
 
-.container{
-    max-width: 1200px;
-    margin: 0 auto;
-}
-
-.header {
-    background-image: url(imagenes/Imagen\ fondo\ de\ inicio.png);
-    background-position: center bottom;
-    background-repeat: no-repeat;
-    background-size: cover;
-    min-height: 70vh;
+header {
+    color: #000000;
+    padding: 0.1em;
+    text-align: left;
     display: flex;
+    justify-content: space-between;
     align-items: center;
+    height: 85px;
+    padding: 5px 10%;
   }
 
-.menu-container{
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+a.logo{
+    cursor: pointer;
 }
 
-a.logo img{
-    height: 55px;
+  a.logo img{
+    height: 45px;
     width: auto;
+}
+
+a.logo img:hover{
     transition: all 0.3s;
     transform: scale(1.2);
     cursor: pointer;
@@ -45,19 +37,44 @@ a.logo img{
 
 nav.navbar{
     font-family: "Playfair Display", serif;
-    background-color: #FFF;
-    display: flex;
+    background-color: #76D8E9;
     padding: 0px;
-    justify-content: space-between;
-    align-items: center;
+    border-radius: 20PX;
+    
 }
 
 nav.navbar li{
     display: inline-block;
     padding: 0 20px;
+}
+
+nav.navbar li:hover{
     transform: scale(1.1);
 }
 
+nav.navbar li a:hover{
+    color: #EEC27B;
+}
+
 nav.navbar a{
+    font-size: 700;
     color: #000000;
+    text-decoration: none;
+}
+
+.btn button{
+    font-weight: 700;
+    color: #000000;
+    padding: 9px 25px;
+    background: #EEC27B;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+.btn button:hover{
+    background-color: #EEC27B;
+    color: #DD6453;
+    transform: scale(1.1);
 }
