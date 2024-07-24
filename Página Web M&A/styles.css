@@ -35,6 +35,35 @@ div.menu-container{
     align-items: baseline;
 }
 
+.header-content-container{
+    text-align: center;
+}
+
+.Título{
+    font-family: "Playfair Display", serif;
+    font-size: 55px;
+    line-height: 80px;
+    text-transform: uppercase;
+    margin-bottom: 35px;
+}
+
+.btn-1 button{
+    font-weight: 700;
+    color: #000000;
+    padding: 9px 25px;
+    background: #FF7000;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+.btn-1 button:hover{
+    background-color: #EEC27B;
+    color: #DD6453;
+    transform: scale(1);
+}
+
 div.logo{
     cursor: pointer;
 }
