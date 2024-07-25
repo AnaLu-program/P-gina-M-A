@@ -60,8 +60,8 @@ div.menu-container{
 }
 
 .btn-1 button:hover{
-    background-color: #EEC27B;
-    color: #DD6453;
+    background-color: #edb55b;
+    color: #da432f;
     transform: scale(1);
 }
 
@@ -92,6 +92,7 @@ nav.navbar{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    position: fixed;
 }
 
 nav.navbar li{
@@ -126,6 +127,25 @@ nav.navbar a{
 }
 
 .btn button:hover{
+    background-color: #000000;
+    color: #FFDE4D;
+    transform: scale(1);
+}
+
+.btn-3 button{
+    font-family: "Montserrat", sans-serif;
+    font-size: 15px;
+    font-weight: 800;
+    color: #000000;
+    padding: 4px 20px;
+    background: #FFDE4D;
+    border: none;
+    border-radius: 16px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+.btn-3 button:hover{
     background-color: #000000;
     color: #FFDE4D;
     transform: scale(1);
