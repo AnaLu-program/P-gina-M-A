@@ -15,7 +15,8 @@
 }
 
 .header {
-    background-image: url(imagenes/imagen\ original.jpg);
+    background: linear-gradient(rgba(239, 195, 124, 0.4), rgba(239, 195, 124, 0.4)), 
+            url(imagenes/imagen\ original.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 90vh;
