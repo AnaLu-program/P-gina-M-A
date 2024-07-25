@@ -70,11 +70,12 @@ div.logo{
 
   div.logo img{
     height: 70px;
+    padding-left: 35px;
 }
 
-a.logo img:hover{
+div.logo img:hover{
     transition: all 0.3s;
-    transform: scale(1.2);
+    transform: scale(1.1);
     cursor: pointer;
 }
 
