@@ -145,7 +145,15 @@ nav.navbar a{
     max-width: 500px;
     border-radius: 10px;
     margin-bottom: 20px;
+    padding-top: 70px;
   }
+
+.linea1{
+    position: absolute;
+    left: 0;
+    padding-bottom: 250px;
+    z-index: -2;
+}
 
 .btn-3 button{
     font-family: "Montserrat", sans-serif;
@@ -170,6 +178,7 @@ nav.navbar a{
     width: 50%; 
     margin: 20px; 
     text-align: justify; 
+    padding-top: 70px;
   }
 
 h1.Quienes{
@@ -187,14 +196,3 @@ p {
     color: #333;
     margin-bottom: 20px;
   }
-
-img.linea1{
-    background-size: cover;
-    background-position: left;
-    z-index: 1;
-}
-
-img.imagen2{
-    position: relative;
-    z-index: 2;
-}
