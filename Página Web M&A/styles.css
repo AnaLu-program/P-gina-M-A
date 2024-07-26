@@ -189,12 +189,6 @@ p {
   }
 
 img.linea1{
-    background-size: cover;
-    background-position: left;
-    z-index: 1;
-}
-
-img.imagen2{
-    position: relative;
-    z-index: 2;
+    position: absolute;
+    left: 0;
 }
