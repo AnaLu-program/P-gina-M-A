@@ -138,6 +138,26 @@ nav.navbar a{
     position: relative;
 }
 
+.linea1{
+    width: 400px;
+    position: absolute;
+    top: 0;
+    padding-top: 50px;
+    left: 0;
+    padding: 0 25px;
+
+}
+
+.QuieneSomos-container{
+    font-size: 55px;
+    line-height: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.imagen2{
+    height: 400px;
+}
 
 .btn-3 button{
     font-family: "Montserrat", sans-serif;
