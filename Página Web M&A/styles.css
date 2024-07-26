@@ -164,7 +164,7 @@ nav.navbar a{
     padding: 4px 20px;
     background: #FFDE4D;
     border: none;
-    border-radius: 16px;
+    border-radius: 10px;
     cursor: pointer;
     transition: all 0.3s ease 0s;
 }
