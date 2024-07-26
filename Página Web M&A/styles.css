@@ -85,7 +85,8 @@ nav.navbar{
     font-family: "Playfair Display", serif;
     background-color: #ffffff;
     padding: 0px;
-    border-radius: 20PX;
+    border-radius: 0 0 40px 40px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
     position: absolute;
     top: 0;
     left: 0;
@@ -145,7 +146,15 @@ nav.navbar a{
     max-width: 500px;
     border-radius: 10px;
     margin-bottom: 20px;
+    padding-top: 70px;
   }
+
+.linea1{
+    position: absolute;
+    left: 0;
+    padding-bottom: 250px;
+    z-index: -2;
+}
 
 .btn-3 button{
     font-family: "Montserrat", sans-serif;
@@ -155,7 +164,7 @@ nav.navbar a{
     padding: 4px 20px;
     background: #FFDE4D;
     border: none;
-    border-radius: 16px;
+    border-radius: 10px;
     cursor: pointer;
     transition: all 0.3s ease 0s;
 }
@@ -170,6 +179,7 @@ nav.navbar a{
     width: 50%; 
     margin: 20px; 
     text-align: justify; 
+    padding-top: 70px;
   }
 
 h1.Quienes{
