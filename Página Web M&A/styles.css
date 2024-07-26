@@ -132,31 +132,20 @@ nav.navbar a{
     color: #FFDE4D;
     transform: scale(1);
 }
-
-.QuienesSomos{
-    padding: 100px 0;
-    position: relative;
+  
+.QuieneSomos-container {
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    flex-wrap: wrap; 
 }
 
-.linea1{
-    width: 400px;
-    position: absolute;
-    top: 0;
-    padding-top: 50px;
-    left: 0;
-    padding: 0 25px;
 
-}
-
-.QuieneSomos-container{
-    font-size: 55px;
-    line-height: auto;
-    display: flex;
-    justify-content: center;
-}
-
-.imagen2{
-    height: 400px;
+.imagen2 {
+    width: 100%;
+    max-width: 500px;
+    border-radius: 10px;
+    margin-bottom: 20px;
 }
 
 .btn-3 button{
@@ -178,9 +167,26 @@ nav.navbar a{
     transform: scale(1);
 }
 
+.Txt-2 {
+    width: 50%; 
+    margin: 20px; 
+    text-align: justify; 
+  }
+
 h1.Quienes{
     font-family: "Montserrat", sans-serif;
     font-size: 48px;
     font-weight: 500;
     color: #FF7000;
+    font-size: 3rem;
+    font-weight: bold;
+    color: #ff6600;
+    margin-bottom: 10px;
 }
+
+p {
+    font-size: 1.2rem;
+    line-height: 1.5;
+    color: #333;
+    margin-bottom: 20px;
+  }
