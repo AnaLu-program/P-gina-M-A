@@ -157,3 +157,10 @@ nav.navbar a{
     color: #FFDE4D;
     transform: scale(1);
 }
+
+h1.Quienes{
+    font-family: "Montserrat", sans-serif;
+    font-size: 48px;
+    font-weight: 500;
+    color: #FF7000;
+}
