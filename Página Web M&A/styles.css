@@ -85,7 +85,8 @@ nav.navbar{
     font-family: "Playfair Display", serif;
     background-color: #ffffff;
     padding: 0px;
-    border-radius: 20PX;
+    border-radius: 0 0 40px 40px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
     position: absolute;
     top: 0;
     left: 0;
