@@ -17,6 +17,7 @@
 .header {
     background: linear-gradient(rgba(239, 195, 124, 0.4), rgba(239, 195, 124, 0.4)), 
             url(imagenes/imagen\ original.jpg);
+    border-radius: 0 0 180px 180px;
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 90vh;
@@ -131,6 +132,12 @@ nav.navbar a{
     color: #FFDE4D;
     transform: scale(1);
 }
+
+.QuienesSomos{
+    padding: 100px 0;
+    position: relative;
+}
+
 
 .btn-3 button{
     font-family: "Montserrat", sans-serif;
