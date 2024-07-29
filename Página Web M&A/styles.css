@@ -198,3 +198,8 @@ p {
     color: #333;
     margin-bottom: 20px;
   }
+
+img.linea1{
+    position: absolute;
+    left: 0;
+}
