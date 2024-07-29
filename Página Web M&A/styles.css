@@ -199,7 +199,8 @@ p {
     margin-bottom: 20px;
   }
 
-img.linea1{
+.linea2{
     position: absolute;
-    left: 0;
+    right: 0;
+    z-index: -2;
 }
