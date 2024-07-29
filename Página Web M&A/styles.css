@@ -168,8 +168,13 @@ nav.navbar a{
     border-radius: 10px;
     cursor: pointer;
     transition: all 0.3s ease 0s;
+    
 }
 
+.btn-3{
+    float: right;
+    margin-right: 100px;
+}
 .btn-3 button:hover{
     background-color: #000000;
     color: #FFDE4D;
