@@ -42,13 +42,22 @@ div.menu-container{
     text-align: center;
 }
 
-.Título{
+/*.Título{
     font-family: "Playfair Display", serif;
     font-size: 55px;
     line-height: 80px;
     text-transform: uppercase;
     margin-bottom: 35px;
-}
+}*/
+
+.Título {
+    font-family: "Playfair Display", serif;
+    font-size: 55px;
+    line-height: 80px;
+    text-transform: uppercase;
+    margin-bottom: 35px;
+    background: linear-gradient(rgba(118, 216, 233, 0.4), rgba(118, 216, 233, 0.4)); 
+  }
 
 .btn-1 button{
     font-weight: 700;
