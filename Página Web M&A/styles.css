@@ -226,3 +226,32 @@ p {
     margin: 0 10px;
     border-radius: 15px;
 }
+
+h1.Nuestros{
+    text-align: center;
+}
+
+section.NuestrosServicios{
+    background-image: linear-gradient(to top, rgb(252, 154, 78), #fff);
+      background-repeat: no-repeat;
+      height: 500px;
+    }
+    
+    .btn-4 button{
+        font-family: "Montserrat";
+        font-size: 13px;
+        font-weight: 700;
+        color: #000000;
+        padding: 3px 18px;
+        background: #FFDE4D;
+        border: none;
+        border-radius: 16px;
+        cursor: pointer;
+        transition: all 0.3s ease 0s;   
+        }
+    
+    .btn-4 button:hover{
+            background-color: #000000;
+            color: #FFDE4D;
+            transform: scale(1);
+        }
