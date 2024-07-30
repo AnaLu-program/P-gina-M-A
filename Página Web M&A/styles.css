@@ -48,7 +48,23 @@ div.menu-container{
     line-height: 80px;
     text-transform: uppercase;
     margin-bottom: 35px;
-    text-shadow: 2px 2px 3px #76D8E9, 0 0 25px #76D8E9;
+  }
+
+.btn-1 button{
+    font-weight: 700;
+    color: #000000;
+    padding: 9px 25px;
+    background: #FF7000;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+.btn-1 button:hover{
+    background-color: #edb55b;
+    color: #da432f;
+    transform: scale(1);
 }
 
 div.logo{
