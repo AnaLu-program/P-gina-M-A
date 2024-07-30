@@ -175,7 +175,6 @@ nav.navbar a{
 .btn-3{
     float: right;
     margin-right: 100px;
-    position: relative;
     margin-top: -100px;
 }
 .btn-3 button:hover{
@@ -219,19 +218,26 @@ h1.Nuestros{
 }
 
 section.NuestrosServicios{
-    background-image: linear-gradient(to top, #FF7000, #fff);
+    background-image: linear-gradient(to top, rgb(252, 154, 78), #fff);
       background-repeat: no-repeat;
-      height: 700px;
+      height: 500px;
     }
-
-.btn-4{
-        float: right;
-        margin-right: 100px;
-        position: relative;
-        margin-top: -100px;
-    }
-.btn-4 button:hover{
-        background-color: #000000;
-        color: #FFDE4D;
-        transform: scale(1);
-    }
+    
+    .btn-4 button{
+        font-family: "Montserrat";
+        font-size: 13px;
+        font-weight: 700;
+        color: #000000;
+        padding: 3px 18px;
+        background: #FFDE4D;
+        border: none;
+        border-radius: 16px;
+        cursor: pointer;
+        transition: all 0.3s ease 0s;   
+        }
+    
+    .btn-4 button:hover{
+            background-color: #000000;
+            color: #FFDE4D;
+            transform: scale(1);
+        }
