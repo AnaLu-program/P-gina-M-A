@@ -212,3 +212,17 @@ p {
     bottom: -600px;
     z-index: -2;
 }
+
+.services-group{
+    display: flex;
+    justify-content: space-between;
+    margin: 45px 0;
+}
+
+.servicio-1{
+    background: linear-gradient(rgba(103, 227, 249, 0.5), rgba(103, 227, 249, 0.5)), 
+    url(imagenes/servicio1.png);
+    padding: 35px 25px;
+    margin: 0 10px;
+    border-radius: 15px;
+}
