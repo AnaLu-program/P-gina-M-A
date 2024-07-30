@@ -213,3 +213,25 @@ p {
     bottom: -600px;
     z-index: -2;
 }
+
+h1.Nuestros{
+    text-align: center;
+}
+
+section.NuestrosServicios{
+    background-image: linear-gradient(to top, #FF7000, #fff);
+      background-repeat: no-repeat;
+      height: 700px;
+    }
+
+.btn-4{
+        float: right;
+        margin-right: 100px;
+        position: relative;
+        margin-top: -100px;
+    }
+.btn-4 button:hover{
+        background-color: #000000;
+        color: #FFDE4D;
+        transform: scale(1);
+    }
