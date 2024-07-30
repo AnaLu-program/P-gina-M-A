@@ -174,6 +174,8 @@ nav.navbar a{
 .btn-3{
     float: right;
     margin-right: 100px;
+    position: relative;
+    margin-top: -100px;
 }
 .btn-3 button:hover{
     background-color: #000000;
