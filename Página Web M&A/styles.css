@@ -222,6 +222,7 @@ p {
 .servicio-1{
     background: linear-gradient(rgba(103, 227, 249, 0.5), rgba(103, 227, 249, 0.5)), 
     url(imagenes/servicio1.png);
+    background: no-repeat;
     padding: 35px 25px;
     margin: 0 10px;
     border-radius: 15px;
