@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
 
 *{
     margin: 0;
@@ -16,7 +17,7 @@
 }
 
 .header {
-    background: linear-gradient(rgba(239, 195, 124, 0.4), rgba(239, 195, 124, 0.4)), 
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
             url(imagenes/imagen\ original.jpg);
     border-radius: 0 0 180px 180px;
     background-repeat: no-repeat;
@@ -43,12 +44,12 @@ div.menu-container{
 }
 
 .Título {
-    font-family: "Playfair Display", serif;
+    font-family: "Montserrat";
     font-size: 55px;
     line-height: 80px;
     text-transform: uppercase;
     margin-bottom: 35px;
-    text-shadow: 0 0 5px #76D8E9, 0 0 25px #76D8E9;
+    text-shadow: 0 0 5px #ffffff, 0 0 15px #ffffff;
   }
 
 .btn-1 button{
@@ -221,17 +222,92 @@ p {
 .services-group{
     display: flex;
     justify-content: space-between;
-    margin: 45px 0;
+    margin-top: 50px;
+    margin-right: 15px;
+    margin-left: 15px;
 }
 
 .servicio-1{
-    background: linear-gradient(rgba(103, 227, 249, 0.5), rgba(103, 227, 249, 0.5)), 
+    background-size: 1000px;
+    background-image: linear-gradient(rgba(64, 64, 64, 0.5), rgba(64, 64, 64, 0.5)), 
     url(imagenes/servicio1.png);
+    background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
-    padding: 35px 25px;
-    margin: 0 10px;
-    border-radius: 15px;
+    height: 70px;
+    width: 400px;
+    padding: 200px 40px;
+    border-radius: 10%;
+    margin-right: 15px;
+}
+
+.servicio-2{
+    background-size: 1000px;
+    background-image: linear-gradient(rgba(64, 64, 64, 0.5), rgba(64, 64, 64, 0.5)), 
+    url(imagenes/servicio2.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 70px;
+    width: 400px;
+    padding: 200px 40px;
+    border-radius: 10%;
+    margin-right: 15px;
+}
+
+.servicio-3{
+    background-size: 1000px;
+    background-image: linear-gradient(rgba(64, 64, 64, 0.5), rgba(64, 64, 64, 0.5)), 
+    url(imagenes/servicio3.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 70px;
+    width: 400px;
+    padding: 200px 40px;
+    border-radius: 10%;
+    margin-right: 15px;
+}
+
+.servicio-4{
+    background-size: 1000px;
+    background-image: linear-gradient(rgba(64, 64, 64, 0.5), rgba(64, 64, 64, 0.5)), 
+    url(imagenes/servicio4.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 70px;
+    width: 400px;
+    padding: 200px 40px;
+    border-radius: 10%;
+}
+
+.servicio1-titulo{
+    font-family: "Montserrat";
+    font-size: 17px;
+    text-transform: uppercase;
+    text-shadow: 0 0 5px #ffffff, 0 0 15px #ffffff;
+}
+
+.servicio2-titulo{
+    font-family: "Montserrat";
+    font-size: 17px;
+    text-transform: uppercase;
+    text-shadow: 0 0 5px #ffffff, 0 0 15px #ffffff;
+}
+
+.servicio3-titulo{
+    font-family: "Montserrat";
+    font-size: 17px;
+    text-transform: uppercase;
+    text-shadow: 0 0 5px #ffffff, 0 0 15px #ffffff;
+}
+
+.servicio4-titulo{
+    font-family: "Montserrat";
+    font-size: 17px;
+    text-transform: uppercase;
+    text-shadow: 0 0 5px #ffffff, 0 0 15px #ffffff;
 }
 
 h1.Nuestros{
@@ -241,7 +317,7 @@ h1.Nuestros{
 section.NuestrosServicios{
     background-image: linear-gradient(to top, rgb(252, 154, 78), #fff);
       background-repeat: no-repeat;
-      height: 500px;
+      height: 550px;
     }
     
     .btn-4 button{
