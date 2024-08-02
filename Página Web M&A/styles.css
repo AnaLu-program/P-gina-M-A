@@ -74,7 +74,7 @@ div.logo{
 }
 
   div.logo img{
-    height: 80px;
+    height: 100px;
     padding-left: 35px;
     display: flex;
 }
@@ -212,6 +212,13 @@ p {
     margin-bottom: 20px;
   }
 
+.linea2{
+    position: absolute;
+    right: 0;
+    bottom: -600px;
+    z-index: -2;
+}
+
 .services-group{
     display: flex;
     justify-content: space-between;
@@ -306,6 +313,7 @@ p {
 h1.Nuestros{
     text-align: center;
     font-family: "Montserrat";
+    font-size: 55px;
 }
 
 section.NuestrosServicios{
