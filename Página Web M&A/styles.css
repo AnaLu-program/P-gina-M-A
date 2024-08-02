@@ -305,12 +305,14 @@ p {
 
 h1.Nuestros{
     text-align: center;
+    font-family: "Montserrat";
 }
 
 section.NuestrosServicios{
     background-image: linear-gradient(to top, rgb(252, 154, 78), #fff);
       background-repeat: no-repeat;
-      height: 550px;
+      height: 620px;
+      padding-top: 55px;
     }
     
     .btn-4 button{
