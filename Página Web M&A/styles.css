@@ -318,10 +318,18 @@ h1.Nuestros{
     font-size: 55px;
 }
 
+.Txt-3{
+    text-align: center;
+}
+
+.p-nuestros{
+    padding-top: 15px;
+}
+
 section.NuestrosServicios{
     background-image: linear-gradient(to top, rgb(252, 154, 78), #fff);
       background-repeat: no-repeat;
-      height: 620px;
+      height: 660px;
       padding-top: 55px;
     }
     
