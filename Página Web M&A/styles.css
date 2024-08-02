@@ -217,7 +217,9 @@ p {
 .services-group{
     display: flex;
     justify-content: space-between;
-    margin-top: 55px;
+    margin-top: 50px;
+    margin-right: 15px;
+    margin-left: 15px;
 }
 
 .servicio-1{
@@ -233,7 +235,27 @@ p {
     border-radius: 10%;
 }
 
+.servicio-2{
+    background-size: 1000px;
+    background-image: linear-gradient(rgba(64, 64, 64, 0.5), rgba(64, 64, 64, 0.5)), 
+    url(imagenes/servicio2.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 70px;
+    width: 400px;
+    padding: 200px 40px;
+    border-radius: 10%;
+}
+
 .servicio1-titulo{
+    font-family: "Montserrat";
+    font-size: 17px;
+    text-transform: uppercase;
+    text-shadow: 0 0 5px #ffffff, 0 0 15px #ffffff;
+}
+
+.servicio2-titulo{
     font-family: "Montserrat";
     font-size: 17px;
     text-transform: uppercase;
