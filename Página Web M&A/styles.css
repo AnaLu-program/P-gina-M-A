@@ -63,8 +63,8 @@ div.menu-container{
 }
 
 .btn-1 button:hover{
-    background-color: #edb55b;
-    color: #da432f;
+    background-color: #000000;
+    color: #FF7000;
     transform: scale(1);
 }
 
@@ -73,13 +73,14 @@ div.logo{
 }
 
   div.logo img{
-    height: 70px;
+    height: 100px;
     padding-left: 35px;
+    display: flex;
 }
 
 div.logo img:hover{
     transition: all 0.3s;
-    transform: scale(1.1);
+    transform: scale(1.3);
     cursor: pointer;
 }
 
@@ -109,11 +110,11 @@ nav.navbar li:hover{
 }
 
 nav.navbar li a:hover{
-    color: #EEC27B;
+    color: #FF7000;
 }
 
 nav.navbar a{
-    font-size: 700;
+    font-size: 26px;
     color: #000000;
     text-decoration: none;
     text-align: center;
@@ -123,16 +124,20 @@ nav.navbar a{
     font-weight: 700;
     color: #000000;
     padding: 9px 25px;
-    background: #FFDE4D;
+    background: #FF7000;
     border: none;
     border-radius: 10px;
     cursor: pointer;
     transition: all 0.3s ease 0s;
 }
 
+.btn{
+    padding-right: 35px;
+}
+
 .btn button:hover{
     background-color: #000000;
-    color: #FFDE4D;
+    color: #FF7000;
     transform: scale(1);
 }
   
@@ -164,7 +169,7 @@ nav.navbar a{
     font-weight: 700;
     color: #000000;
     padding: 5px 20px;
-    background: #FFDE4D;
+    background: #FF7000;
     border: none;
     border-radius: 10px;
     cursor: pointer;
@@ -179,7 +184,7 @@ nav.navbar a{
 }
 .btn-3 button:hover{
     background-color: #000000;
-    color: #FFDE4D;
+    color: #FF7000;
     transform: scale(1);
 }
 
@@ -245,7 +250,7 @@ section.NuestrosServicios{
         font-weight: 700;
         color: #000000;
         padding: 3px 18px;
-        background: #FFDE4D;
+        background: #FF7000;
         border: none;
         border-radius: 16px;
         cursor: pointer;
@@ -254,6 +259,6 @@ section.NuestrosServicios{
     
     .btn-4 button:hover{
             background-color: #000000;
-            color: #FFDE4D;
+            color: #FF7000;
             transform: scale(1);
         }
