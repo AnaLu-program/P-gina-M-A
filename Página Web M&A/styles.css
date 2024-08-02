@@ -233,12 +233,41 @@ p {
     width: 400px;
     padding: 200px 40px;
     border-radius: 10%;
+    margin-right: 15px;
 }
 
 .servicio-2{
     background-size: 1000px;
     background-image: linear-gradient(rgba(64, 64, 64, 0.5), rgba(64, 64, 64, 0.5)), 
     url(imagenes/servicio2.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 70px;
+    width: 400px;
+    padding: 200px 40px;
+    border-radius: 10%;
+    margin-right: 15px;
+}
+
+.servicio-3{
+    background-size: 1000px;
+    background-image: linear-gradient(rgba(64, 64, 64, 0.5), rgba(64, 64, 64, 0.5)), 
+    url(imagenes/servicio3.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 70px;
+    width: 400px;
+    padding: 200px 40px;
+    border-radius: 10%;
+    margin-right: 15px;
+}
+
+.servicio-4{
+    background-size: 1000px;
+    background-image: linear-gradient(rgba(64, 64, 64, 0.5), rgba(64, 64, 64, 0.5)), 
+    url(imagenes/servicio4.png);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -262,6 +291,20 @@ p {
     text-shadow: 0 0 5px #ffffff, 0 0 15px #ffffff;
 }
 
+.servicio3-titulo{
+    font-family: "Montserrat";
+    font-size: 17px;
+    text-transform: uppercase;
+    text-shadow: 0 0 5px #ffffff, 0 0 15px #ffffff;
+}
+
+.servicio4-titulo{
+    font-family: "Montserrat";
+    font-size: 17px;
+    text-transform: uppercase;
+    text-shadow: 0 0 5px #ffffff, 0 0 15px #ffffff;
+}
+
 h1.Nuestros{
     text-align: center;
 }
@@ -269,7 +312,7 @@ h1.Nuestros{
 section.NuestrosServicios{
     background-image: linear-gradient(to top, rgb(252, 154, 78), #fff);
       background-repeat: no-repeat;
-      height: 500px;
+      height: 550px;
     }
     
     .btn-4 button{
