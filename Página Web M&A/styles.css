@@ -11,6 +11,22 @@
     list-style: none;
 }
 
+::-webkit-scrollbar {
+    display: none;
+  }
+  
+  ::-moz-scrollbar {
+    display: none;
+  }
+  
+  ::-ms-scrollbar {
+    display: none;
+  }
+  
+  ::-o-scrollbar {
+    display: none;
+  }
+
 .container{
     max-width: 1200px;
     margin: 0 auto;
