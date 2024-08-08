@@ -73,6 +73,7 @@ div.menu-container{
     color: #ffffff;
     padding: 9px 25px;
     background: #FF7000;
+    font-family: "Montserrat";
     border: none;
     border-radius: 10px;
     cursor: pointer;
@@ -97,7 +98,7 @@ div.logo img{
 }
 
 nav.navbar{
-    font-family: "Playfair Display", serif;
+    font-family: "Montserrat";
     background-color: #ffffff;
     padding: 0px;
     border-radius: 0 0 40px 40px;
@@ -137,6 +138,7 @@ nav.navbar a{
     color: #000000;
     padding: 9px 25px;
     background: #FF7000;
+    font-family: "Montserrat";
     border: none;
     border-radius: 10px;
     cursor: pointer;
@@ -208,9 +210,9 @@ nav.navbar a{
   }
 
 h1.Quienes{
-    font-family: "Montserrat", sans-serif;
+    font-family: "Montserrat"; 
     font-size: 20px;
-    font-weight: 300;
+    font-weight: 550;
     color: #FF7000;
     font-size: 2.8rem;
     margin-bottom: 10px;
@@ -218,6 +220,8 @@ h1.Quienes{
 
 p {
     font-size: 1.1rem;
+    font-family: "Montserrat";
+    font-weight: 300;
     line-height: 1.5;
     color: #333;
     margin-bottom: 20px;
