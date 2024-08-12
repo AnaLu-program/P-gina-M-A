@@ -11,16 +11,24 @@
   action="https://formspree.io/f/mzzpgylz"
   method="POST"
 >
-  <label>
-    Nombre y Apellido:
+  <label class="names">
+    Nombre:
     <textarea name="name"></textarea>
   </label><br>
-  <label>
+  <label class="lastnames">
+    Apellido:
+    <textarea name="lastname"></textarea>
+  </label><br>
+  <label class="gmail">
     Correo electronico:
     <input type="email" name="email">
   </label><br>
+  <label class="sms">
+    Mensaje:
+    <textarea name="message"></textarea>
+  </label><br>
   <!-- your other form fields go here -->
-  <button type="submit">Enviar CV</button>
+  <button type="submit" class="buttoncito">Enviar CV</button>
 </form>
 </body>
 </html>
